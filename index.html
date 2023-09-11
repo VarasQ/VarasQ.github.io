@@ -47,10 +47,15 @@
 
 		<div class="gradient">
 			<div class="flex-container">
-				<div class="split">
-					<a href="https://historiasmp.tebex.io/"><img class="img" src="img/store.png" alt="Image of Store icon"></a>
-					<p>Visit our store here!</p>
-				</div>
+				<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+				<script>
+				  kofiWidgetOverlay.draw('qvaras', {
+					'type': 'floating-chat',
+					'floating-chat.donateButton.text': 'Support me',
+					'floating-chat.donateButton.background-color': '#fcbf47',
+					'floating-chat.donateButton.text-color': '#323842'
+				  });
+				</script>
 				<div class="split">
 					<a href="https://discord.gg/QKr87cVR5Q"><img class="img" src="img/discord.png" alt="Image of Discord's logo"></a>
 					<p>Join our Discord here!</p>
